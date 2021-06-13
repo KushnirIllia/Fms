@@ -1,0 +1,116 @@
+@media (max-width: 992px) {
+  .navbar {
+    top: 120px;
+    &__link {
+      font-size: 12px;
+    }
+    &__links {
+      min-width: 480px;
+    }
+    &_active {
+      top: 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    top: 12px;
+    &_active {
+      top: 0;
+      .navbar__logo svg {
+        width: 110px;
+      }
+    }
+    &__btn {
+      width: 25px;
+      height: 19px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-direction: column;
+      cursor: pointer;
+      span {
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        transition: 0.6s all;
+        &.short {
+          width: 18px;
+        }
+      }
+    }
+    &__close {
+      display: block;
+      position: absolute;
+      font-size: 36px;
+      top: -102px;
+      right: -79px;
+      cursor: pointer;
+      margin: 6px;
+    }
+    &__link {
+      font-size: 12px;
+      &:hover {
+        color: #000;
+      }
+    }
+
+    &__links {
+      position: absolute;
+      top: 108px;
+      right: 100%;
+      transition: all 0.6s ease;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      height: 35vh;
+      opacity: 0;
+      &_active {
+        position: absolute;
+        right: 90px;
+        opacity: 1;
+      }
+    }
+    &__bg {
+      display: block;
+      position: absolute;
+      top: -200px;
+      right: 0;
+      height: calc(100vh + 200px);
+      background: $main-color;
+      width: 0;
+      opacity: 0;
+      transition: all 0.6s ease;
+      &_active {
+        width: 60%;
+        opacity: 1;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    top: 9px;
+    &__logo svg {
+      width: 110px;
+      height: 50px;
+    }
+    &_active {
+      top: 0;
+      .navbar__logo svg {
+        width: 95px;
+      }
+    }
+    &__bg_active {
+      width: 85%;
+    }
+    &__links_active {
+      right: 50px;
+    }
+    &__close {
+      top: -104px;
+      right: -35px;
+    }
+  }
+}

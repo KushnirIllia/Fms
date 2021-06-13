@@ -1,0 +1,25 @@
+.contact {
+  display: grid;
+  grid-template: 38px / 28px 129px;
+  column-gap: 11px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 700;
+  }
+  &__tel {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+}

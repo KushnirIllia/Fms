@@ -1,0 +1,64 @@
+.advantages {
+  padding: 80px 0;
+  text-align: center;
+  &__title {
+    max-width: 370px;
+    margin: 0 auto;
+  }
+  &__wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template: 355px /  repeat(2, 570px);
+    justify-content: center;
+    grid-auto-rows: 355px;
+  }
+  &__item {
+    position: relative;
+    &:nth-child(1) {
+      background: url("../img/advantages/testing-in-real-time_privileges.jpg") center (center / cover) no-repeat;
+    }
+    &:nth-child(2) {
+      background: url("../img/advantages/intellect_privileges.jpg") center (center / cover) no-repeat;
+    }
+    &:nth-child(3) {
+      background: url("../img/advantages/enywhere_privileges.jpg") center (center / cover) no-repeat;
+    }
+    &:nth-child(4) {
+      background: url("../img/advantages/no-op_privileges.jpg") center (center / cover) no-repeat;
+    }
+    &:nth-child(5) {
+      background: url("../img/advantages/real-bussines-process_privileges.jpg") center (center / cover) no-repeat;
+    }
+    &:nth-child(6) {
+      background: url("../img/advantages/no-pay_privileges.jpg") center (center / cover) no-repeat;
+    }
+  }
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    max-width: 335px;
+
+  }
+  &__bg {
+    min-height: 156px;
+    width: 100%;
+    min-height: 156px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.44;
+    background-color: #000000;
+    padding: 40px 0;
+    text-align: center;
+  }
+}

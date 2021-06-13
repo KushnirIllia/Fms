@@ -1,0 +1,139 @@
+@media (max-width: 1200px) {
+  .prengi {
+    &__disadvantages, &__advantages {
+      grid-template: 278px / repeat(3, 300px);
+      grid-auto-rows: 278px;
+    }
+
+    &_answer {
+      background: url("../img/prengi/prengi-answer.png") 99% (center / cover) no-repeat;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .prengi {
+    padding: 50px 0 90px 0;
+
+    &__disadvantages, &__advantages {
+      grid-template: 278px / repeat(3, 229px);
+      column-gap: 15px;
+      grid-auto-rows: 278px;
+    }
+
+    &_question {
+      .prengi__text {
+        max-width: 200px;
+        font-size: 16px;
+      }
+    }
+
+    &__arrow {
+      width: 123px;
+    }
+
+    &__title {
+      font-size: 45px;
+      margin: 5px 0 32px 0;
+    }
+
+    &_answer {
+      .prengi__text {
+        max-width: 206px;
+        font-size: 17px;
+      }
+    }
+
+    &_question {
+      background: url(../img/prengi/prengi-question.png) 99% (center / cover) no-repeat;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .prengi {
+    padding: 30px 0 50px 0;
+
+    &__disadvantages, &__advantages {
+      grid-template: auto / repeat(2,minmax(auto, 262px));
+      grid-auto-rows: auto;
+      gap: 15px;
+    }
+
+    &_answer {
+      background: url("../img/prengi/prengi-answer.png") 99% (center / cover) no-repeat;
+    }
+
+    &_question, &_answer {
+      .prengi__text {
+        max-width: unset;
+        font-size: 16px;
+
+      }
+    }
+
+    &_question {
+      background: url(../img/prengi/prengi-question.png) 99% (center / cover) no-repeat;
+    }
+
+    &__arrow {
+      width: 123px;
+      margin: 33px 0 15px 0;
+    }
+
+    &__title {
+      font-size: 40px;
+      margin: 5px 0 20px 0;
+    }
+
+    &_answer {
+      .prengi__text {
+        max-width: 206px;
+        font-size: 17px;
+      }
+    }
+
+    &__item {
+      grid-template: 130px auto / auto;
+      padding: 15px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .prengi {
+    padding: 15px 0 20px 0;
+
+    &__disadvantages, &__advantages {
+      grid-template: auto / repeat(1, minmax(auto, 289px));
+      grid-auto-rows: auto;
+      gap: 15px;
+    }
+
+    &_question, &_answer {
+      .prengi__text {
+        max-width: unset;
+        font-size: 15px;
+      }
+    }
+
+    &_question {
+      background: url(../img/prengi/prengi-question.png) 99% (center / cover) no-repeat;
+    }
+
+    &__arrow {
+      width: 123px;
+      margin: 33px 0 15px 0;
+    }
+
+    &__title {
+      font-size: 40px;
+      margin: 5px 0 20px 0;
+    }
+
+    &__item {
+      grid-template: 130px auto / auto;
+      padding: 15px;
+    }
+  }
+}

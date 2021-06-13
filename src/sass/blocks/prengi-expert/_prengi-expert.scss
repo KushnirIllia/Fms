@@ -1,0 +1,51 @@
+.prengi-expert {
+  position: relative;
+  padding: 79px 0 61px 0;
+  background: url("../img/bg/slide-show_bg.jpg") center  (center / cover) no-repeat;
+  min-height: 890px;
+  &__title {
+    max-width: 618px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  &__slider {
+    margin: 35px auto;
+    padding: 37px 0 0;
+    //overflow: hidden;
+    height: 472px;
+    width: 695px;
+    div {
+      overflow: hidden;
+      height: 435px;
+    }
+  }
+  &__bg {
+    background: url("../img/macbook-air.png") center  (center / cover) no-repeat;
+    width: 940px;
+    height: 560px;
+    margin: 0 auto;
+  }
+  &__img {
+    img   {
+      width: 100%;
+      height: 106%;
+      object-fit: cover;
+    }
+  }
+  &__prev, &__next {
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    top: 47%;
+    cursor: pointer;
+  }
+  &__prev {
+    transform: rotate(-180deg);
+    left: -140px;
+  }
+  &__next {
+    right: -140px;
+  }
+}

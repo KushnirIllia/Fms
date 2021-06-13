@@ -1,0 +1,20 @@
+.title {
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #242424;
+  &_fz14 {
+    font-size: 14px;
+  }
+  &_fz18 {
+    font-size: 18px;
+    line-height: 1.44;
+  }
+  &_fz30 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+}

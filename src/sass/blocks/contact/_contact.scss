@@ -1,0 +1,22 @@
+.contact-section {
+  min-height: 690px;
+  padding: 80px 0;
+  text-align: center;
+  &__img {
+    width: 302px;
+    height: 302px;
+    margin: 0 auto 74px auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__text {
+    font-weight: 900;
+    max-width: 497px;
+    margin: 0 auto;
+  }
+  &__btn {
+    margin: 30px auto 0 auto;
+  }
+}

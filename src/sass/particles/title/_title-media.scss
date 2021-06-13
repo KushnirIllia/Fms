@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .title {
+    &_fz14 {
+      font-size: 13px;
+    }
+    &_fz30 {
+      font-size: 26px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    &_fz30 {
+      font-size: 22px;
+    }
+  }
+}

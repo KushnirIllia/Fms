@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+  .contact {
+    grid-template: 40px / 28px 129px;
+  }
+}
+@media (max-width: 992px) {
+  .contact {
+    grid-template: 35px / 25px 130px;
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &:last-child {
+      margin-top: 10px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    display: none;
+  }
+}
+
+
